@@ -1,33 +1,32 @@
-# Task-1
+### Task-1  
 
+## Description  
+This program takes a user-inputted string and analyzes it. It counts the number of consonants and separately collects all vowel and consonant characters.  
 
-## Опис  
-Ця програма приймає введений користувачем рядок і виконує його аналіз. Вона підраховує кількість приголосних, а також окремо збирає всі голосні та приголосні символи.  
-
-## Як працює  
-1. Користувач вводить рядок.  
-2. Програма визначає всі голосні літери (a, e, i, o, u, y) у рядку та зберігає їх.  
-3. Далі вона знаходить усі приголосні літери та підраховує їхню кількість.  
-4. Результат виводиться у форматі:  
-   ```
-   (список голосних, кількість приголосних, список приголосних)
+## How It Works  
+1. The user enters a string.  
+2. The program identifies all vowel letters (`a, e, i, o, u, y`) in the string and stores them.  
+3. It then finds all consonant letters and counts them.  
+4. The result is displayed in the following format:  
+   ```  
+   (list of vowels, number of consonants, list of consonants)  
    ```  
 
-## Приклад використання  
-**Вхід:**  
+## Example Usage  
+**Input:**  
 ```
 abcdefg
 ```  
-**Вихід:**  
+**Output:**  
 ```
 (ae, 5, bcdfg)
 ```  
 
-## Вимоги  
+## Requirements  
 - Python 3.x  
 
-## Запуск  
-Запустіть скрипт у терміналі або командному рядку:  
+## Run  
+Execute the script in a terminal or command prompt:  
 ```sh
 python script.py
 ```  
